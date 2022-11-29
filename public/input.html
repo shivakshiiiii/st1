@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student Details Form</title>
+        <link rel="stylesheet" href="./input.css" />
+    </head>
+    <body>
+        <div class="link-wrapper">
+            <a href="/students">View Students Data</a>
+        </div>
+        <div class="form-wrapper">
+            <form id="student-form">
+                <div class="separator">
+                    <div class="title">Student Details</div>
+                </div>
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input class="input" type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                    <label for="town-city">City</label>
+                    <input
+                        class="input"
+                        type="text"
+                        name="town-city"
+                        id="town-city"
+                    />
+                </div>
+                <div class="field">
+                    <label for="state">State</label>
+                    <input class="input" type="text" name="state" id="state" />
+                </div>
+                <div class="field">
+                    <label for="pincode">Pincode</label>
+                    <input
+                        class="input"
+                        type="text"
+                        name="pincode"
+                        id="pincode"
+                    />
+                </div>
+                <div class="separator">
+                    <div class="title">Marks Details</div>
+                </div>
+                <div class="field">
+                    <label for="english">English</label>
+                    <input
+                        class="input"
+                        type="number"
+                        max="100"
+                        min="0"
+                        name="english"
+                        id="english"
+                    />
+                </div>
+                <div class="field">
+                    <label for="maths">Maths</label>
+                    <input
+                        class="input"
+                        type="number"
+                        max="100"
+                        min="0"
+                        name="maths"
+                        id="maths"
+                    />
+                </div>
+                <div class="field">
+                    <label for="science">Science</label>
+                    <input
+                        class="input"
+                        type="number"
+                        max="100"
+                        min="0"
+                        name="science"
+                        id="science"
+                    />
+                </div>
+                <div class="field">
+                    <label for="social-science">Social Science</label>
+                    <input
+                        class="input"
+                        type="number"
+                        max="100"
+                        min="0"
+                        name="social-science"
+                        id="social-science"
+                    />
+                </div>
+                <div class="field">
+                    <label for="hindi">Hindi</label>
+                    <input
+                        class="input"
+                        type="number"
+                        type="number"
+                        min="0"
+                        max="100"
+                        name="hindi"
+                        id="hindi"
+                    />
+                </div>
+                <button type="submit">Submit</button>
+                <div id="success-msg" class="success-msg hidden">
+                    Student Data Added Successfully
+                </div>
+            </form>
+        </div>
+        <script src="./input.js"></script>
+    </body>
+</html>
